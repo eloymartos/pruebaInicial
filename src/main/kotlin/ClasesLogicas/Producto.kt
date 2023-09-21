@@ -16,4 +16,8 @@ abstract class Producto(INITitulo : String, INITPrecio : Float, INITAño : Int) 
         año_publicacion = INITAño
     }
 
+    override fun toString(): String {
+        return "titulo : $Titulo, precio : $precio, año de publicacion : $año_publicacion"
+    }
+
 }

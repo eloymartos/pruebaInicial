@@ -58,4 +58,8 @@ class Cliente_registrado(INITNombre : String,INITApellidos : String, INITDNI_NIF
         TODO("Not yet implemented")
     }
 
+    override fun toString(): String {
+        return "$nombre $apellidos, dni = $DNI_NIF, telefono = $telefono, saldo = $saldo, descuento actual = $descuento "
+    }
+
 }

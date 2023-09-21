@@ -18,4 +18,8 @@ class Pelicula(INITitulo : String,
         director = INITDirector
     }
 
+    override fun toString(): String {
+        return super.toString()+", genero : $genero, director : $director"
+    }
+
 }

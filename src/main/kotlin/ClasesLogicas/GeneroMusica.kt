@@ -1,7 +1,6 @@
 package ClasesLogicas
 
-class GeneroMusica(INITNombre : String) {
+enum class GeneroMusica(INITNombre : String) {
 
-    val nombre = INITNombre
-
+    //TODO
 }

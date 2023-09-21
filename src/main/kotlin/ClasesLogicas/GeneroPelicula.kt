@@ -1,7 +1,5 @@
 package ClasesLogicas
 
-class GeneroPelicula(INITNombre : String) {
-
-    val nombre = INITNombre
-
+enum class GeneroPelicula(INITNombre : String) {
+        //TODO
 }

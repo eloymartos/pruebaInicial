@@ -21,4 +21,8 @@ class Disco(INITitulo : String,
         stock = INITStock
     }
 
+    override fun toString(): String {
+        return super.toString()+ ", generoo : $genero, grupo : $grupo"
+    }
+
 }
