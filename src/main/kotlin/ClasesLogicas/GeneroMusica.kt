@@ -1,6 +1,7 @@
 package ClasesLogicas
 
-enum class GeneroMusica(INITNombre : String) {
+enum class GeneroMusica{
 
-    //TODO
+    rock, metal, reggae, disco, pop, jazz, flamenco
+
 }

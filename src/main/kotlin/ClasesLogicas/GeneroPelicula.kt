@@ -1,5 +1,5 @@
 package ClasesLogicas
 
-enum class GeneroPelicula(INITNombre : String) {
-        //TODO
+enum class GeneroPelicula {
+    ciencia_ficcion,acion, guerra, zombies
 }
